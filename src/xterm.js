@@ -2247,7 +2247,6 @@ function cancel(ev, force) {
     return;
   }
   ev.preventDefault();
-  ev.stopPropagation();
   return false;
 }
 
