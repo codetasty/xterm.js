@@ -5038,7 +5038,7 @@ function cancel(ev, force) {
         return;
     }
     ev.preventDefault();
-    ev.stopPropagation();
+    // ev.stopPropagation();
     return false;
 }
 function inherits(child, parent) {
